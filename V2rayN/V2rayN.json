@@ -1,1 +1,61 @@
-
+[
+  {
+    "port": "443",
+    "network": "udp",
+    "outboundTag": "block",
+    "enabled": true,
+    "remarks": "UDP443\u963B\u65AD"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "\u5C40\u57DF\u7F51\u4E13\u7528\u89C4\u5219"
+  },
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "\u5E7F\u544A\u62E6\u622A"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:category-ai-!cn"
+    ],
+    "enabled": true,
+    "remarks": "AI\u4E13\u7528\u89C4\u5219"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:youtube"
+    ],
+    "enabled": true,
+    "remarks": "\u6CB9\u7BA1\u4E13\u7528\u89C4\u5219"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:cn"
+    ],
+    "domain": [
+      "geosite:cn"
+    ],
+    "enabled": true,
+    "remarks": "\u56FD\u5185\u76F4\u8FDE"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "enabled": true,
+    "remarks": "\u56FD\u5916\u4EE3\u7406"
+  }
+]
