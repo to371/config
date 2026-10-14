@@ -434,7 +434,7 @@ function main(config) {
     "日本": [/日本/i, /\bJP\b/i, /NRT/i, /HND/i, /KIX/i, /CTS/i, /FUK/i, /Japan/i, /Tokyo/i, /Osaka/i],
     "新加坡": [/新加坡/i, /\bSG\b/i, /SIN/i, /XSP/i, /Singapore/i],
     "韩国": [/韩国/i, /韓國/i, /\bKR\b/i, /ICN/i, /GMP/i, /PUS/i, /Korea/i, /Seoul/i],
-    "美国": [/美国/i, /\bUS\b/i, /\bUSA\b/i, /LAX/i, /SFO/i, /JFK/i, /SJC/i, /United\s*States/i, /America/i, /Los\s*Angeles/i, /San\s*Jose/i, /New\s*York/i],
+    "美国": [/美国/i, /美/i, /🇺🇸/, /洛杉矶/i, /旧金山/i, /圣何塞/i, /纽约/i, /西雅图/i, /芝加哥/i, /达拉斯/i, /硅谷/i, /波特兰/i, /凤凰城/i, /(^|[^a-zA-Z])US([^a-zA-Z]|$)/i, /(^|[^a-zA-Z])USA([^a-zA-Z]|$)/i, /LAX/i, /SFO/i, /JFK/i, /SJC/i, /SEA/i, /ORD/i, /DFW/i, /United\s*States/i, /America/i, /Los\s*Angeles/i, /San\s*Jose/i, /San\s*Francisco/i, /New\s*York/i, /Seattle/i],
     "加拿大": [/加拿大/i, /Canada/i, /Toronto/i, /Vancouver/i, /Montreal/i],
     "英国": [/英国/i, /UK/i, /United\s*Kingdom/i, /England/i, /London/i, /Manchester/i]
   };
