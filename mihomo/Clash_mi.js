@@ -573,6 +573,16 @@ function main(config) {
     "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve",
     "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve",
 
+    "DOMAIN-SUFFIX,github.com,一键代理",
+    "DOMAIN-SUFFIX,github.io,一键代理",
+    "DOMAIN-SUFFIX,githubusercontent.com,一键代理",
+    "DOMAIN-SUFFIX,githubassets.com,一键代理",
+    "DOMAIN-SUFFIX,raw.githubusercontent.com,一键代理",
+    "DOMAIN-SUFFIX,gist.github.com,一键代理",
+    "DOMAIN-SUFFIX,codeload.github.com,一键代理",
+    "DOMAIN-SUFFIX,github.io,一键代理",
+    "DOMAIN-SUFFIX,github.com,一键代理",
+
     "RULE-SET,NetworkTest,网络检测",
     "RULE-SET,AI,AI",
     "RULE-SET,YouTube,YouTube",
