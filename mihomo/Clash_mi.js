@@ -560,11 +560,14 @@ function main(config) {
     .concat(regionGroups)
     .concat([domesticDirectGroup, mainSelector]);
 
-  // 31. Routing rules (已移除 TikTok, Steam, Spotify, Netflix, GitHub)
+  // 31. Routing rules (自行添加适合自己的规则)
   config["rules"] = [
     "DOMAIN-SUFFIX,lan,DIRECT",
     "DOMAIN-SUFFIX,local,DIRECT",
     "DOMAIN-SUFFIX,localhost,DIRECT",
+    "DOMAIN-SUFFIX,221441.xyz,DIRECT",
+    "DOMAIN-SUFFIX,greetec.com,DIRECT",
+    "DOMAIN-SUFFIX,baigongyi.com,DIRECT",
     "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve",
     "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve",
     "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve",
