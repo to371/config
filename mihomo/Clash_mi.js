@@ -584,10 +584,10 @@ function main(config) {
     "DOMAIN-SUFFIX,github.com,一键代理",
     
     "DOMAIN-WILDCARD,*pcdn*.biliapi.net,REJECT",
-    "DOMAIN-SUFFIX,http://mcdn.bilivideo.cn,REJECT",
-    "DOMAIN-SUFFIX,http://mcdn.bilivideo.com,REJECT",
-    "DOMAIN-SUFFIX,http://szbdyd.com,REJECT"
-    "DOMAIN-SUFFIX,http://mountaintoys.cn,REJECT",
+    "DOMAIN-SUFFIX,mcdn.bilivideo.cn,REJECT",
+    "DOMAIN-SUFFIX,mcdn.bilivideo.com,REJECT",
+    "DOMAIN-SUFFIX,szbdyd.com,REJECT"
+    "DOMAIN-SUFFIX,mountaintoys.cn,REJECT",
     
     "RULE-SET,NetworkTest,网络检测",
     "RULE-SET,AI,AI",
