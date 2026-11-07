@@ -582,7 +582,13 @@ function main(config) {
     "DOMAIN-SUFFIX,codeload.github.com,一键代理",
     "DOMAIN-SUFFIX,github.io,一键代理",
     "DOMAIN-SUFFIX,github.com,一键代理",
-
+    
+    "DOMAIN-WILDCARD,*pcdn*.biliapi.net,REJECT",
+    "DOMAIN-SUFFIX,http://mcdn.bilivideo.cn,REJECT",
+    "DOMAIN-SUFFIX,http://mcdn.bilivideo.com,REJECT",
+    "DOMAIN-SUFFIX,http://szbdyd.com,REJECT"
+    "DOMAIN-SUFFIX,http://mountaintoys.cn,REJECT",
+    
     "RULE-SET,NetworkTest,网络检测",
     "RULE-SET,AI,AI",
     "RULE-SET,YouTube,YouTube",
